@@ -118,14 +118,14 @@ a {
     color: rgba(255, 0, 0, 0.6); }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter; }
 
 .pottery-intro {
   font-size: 25px; }
 
 .bio p {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400; }
 
 #container {
@@ -311,7 +311,7 @@ img {
   margin: 27px;
   text-align: justify;
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 30px;
   font-family: Roboto;
   font-weight: normal; }
 
