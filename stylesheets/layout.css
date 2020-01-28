@@ -1,3 +1,108 @@
+@media (min-width: 320px) {
+  html {
+    font-size: 55%; }
+  #container {
+    padding: -webkit-auto;
+    margin: 5px; }
+  .bio {
+    padding-right: 5px;
+    padding-left: 5px; }
+  .card-info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-justify: inter-word;
+    letter-spacing: 1px; }
+    .card-info #svg-home {
+      height: 30px;
+      width: auto;
+      position: absolute; }
+  .card-text {
+    padding-right: 20px;
+    padding-left: 26px;
+    font-size: 25px;
+    font-weight: initial;
+    text-align: left;
+    position: relative; } }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 55%; }
+  #container {
+    padding: -webkit-auto;
+    margin: 10px;
+    font-size: 40px; }
+  .bio {
+    padding-right: 5px;
+    padding-left: 10px;
+    margin: 5px; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 56%; }
+  #container {
+    padding: 25px;
+    margin: 10px; }
+  .bio {
+    padding: initial;
+    margin: 5px; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 90%; }
+  #container {
+    padding: 45px;
+    margin: 15px; }
+  .bio {
+    padding: initial;
+    margin: -webkit-auto; } }
+
+@media (min-width: 1000px) {
+  .card-text {
+    padding-right: 20px;
+    padding-left: 26px;
+    font-size: 25px;
+    font-weight: initial;
+    text-align: left;
+    position: relative; } }
+
+@media (min-width: 1024px) {
+  #container {
+    padding: 0px 100px 0px 100px;
+    margin: auto; }
+  .bio {
+    padding: 1px;
+    margin: auto; }
+  .main-card {
+    padding: -webkit-auto;
+    margin: -webkit-auto; }
+    .main-card .card-text {
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 33px;
+      font-weight: initial;
+      text-align: left;
+      position: relative;
+      font-stretch: expanded; } }
+
+@media (min-width: 1200px) {
+  #container {
+    padding: 10px 130px 20px 130px;
+    margin: auto; }
+  .bio {
+    padding: -webkit-auto;
+    margin: -webkit-auto; }
+  .main-card {
+    padding: -webkit-auto;
+    margin: -webkit-auto; }
+    .main-card .card-text {
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 33px;
+      font-weight: initial;
+      text-align: -webkit-auto;
+      position: relative; } }
+
 body {
   background-color: #FFFFFF;
   color: #212121;
@@ -16,12 +121,15 @@ p {
   font-size: 30px;
   font-weight: lighter; }
 
+.pottery-intro {
+  font-size: 25px; }
+
 .bio p {
-  font-size: 40px; }
+  font-size: 40px;
+  font-weight: 400; }
 
 #container {
-  justify-content: center;
-  padding: 0px 200px 0px 200px; }
+  justify-content: center; }
 
 .card-info {
   display: flex;
@@ -34,23 +142,148 @@ p {
     width: auto;
     position: absolute; }
 
-.card-text {
-  padding-right: 20px;
-  padding-left: 26px;
-  font-size: 33px;
-  font-weight: lighter;
-  text-align: justify;
-  position: relative; }
+@media (min-width: 320px) {
+  html {
+    font-size: 55%; }
+  #navbar {
+    margin: 15px;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 79px; }
+      #navbar #navbar-card #navbar-text {
+        padding-top: 27px;
+        padding-left: 60px;
+        position: relative;
+        font-size: 25px;
+        font-weight: normal;
+        letter-spacing: 1px; } }
 
-#home-link-card {
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 25px;
-  font-weight: lighter;
-  line-height: 55px;
-  display: flex;
-  justify-content: space-between; }
+@media (min-width: 576px) {
+  html {
+    font-size: 55%; }
+  #navbar {
+    margin: 15px;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 79px; }
+      #navbar #navbar-card #navbar-text {
+        padding-top: 29px;
+        padding-left: 56px;
+        position: relative;
+        font-size: 25px;
+        font-weight: normal;
+        letter-spacing: 1px; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 56%; }
+  #navbar {
+    padding: 0px;
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 79px; }
+      #navbar #navbar-card #navbar-text {
+        padding-top: 26px;
+        padding-left: 53px;
+        position: relative;
+        font-size: 25px;
+        font-weight: normal;
+        letter-spacing: 1px; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 90%; }
+  #navbar {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 79px; }
+      #navbar #navbar-card #navbar-text {
+        padding-top: 15px;
+        padding-right: 26px;
+        padding-left: 26px;
+        position: relative;
+        font-size: 35px;
+        font-weight: normal; } }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 90%; }
+  #navbar {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 79px; }
+      #navbar #navbar-card #navbar-text {
+        padding-right: 25px;
+        padding-left: 54px;
+        position: relative;
+        font-size: 35px;
+        font-weight: normal; } }
+
+@media (min-width: 1200px) {
+  #navbar {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 100px; }
+      #navbar #navbar-card #navbar-text {
+        padding-right: 25px;
+        padding-left: 54px;
+        position: relative;
+        font-size: 35px;
+        font-weight: normal; } }
 
 * {
   -webkit-box-sizing: border-box;
@@ -64,27 +297,37 @@ img {
   float: left;
   padding: .5em; }
 
-@media screen and (max-width: 1000px) {
-  .photo {
-    width: 33.3%; } }
-
 @media screen and (max-width: 800px) {
   .photo {
     width: 50%; } }
 
 @media screen and (max-width: 400px) {
-  /*   body {
-    background-color:#ded;
-  } */
   .photo {
     width: 100%; } }
 
 #page-info {
   letter-spacing: 1px;
   text-justify: inter-word;
-  margin-left: 27px;
+  margin: 27px;
   text-align: justify;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: normal; }
+
+.pottery-intro {
+  margin: 27px;
+  text-align: justify; }
+
+@media (min-width: 320px) {
+  .pottery-intro {
+    margin: 25px;
+    text-align: inherit; } }
+
+@media (min-width: 768px) {
+  .pottery-intro {
+    margin: 25px;
+    text-align: justify; } }
 
 #page-title-circle {
   width: 100%;
