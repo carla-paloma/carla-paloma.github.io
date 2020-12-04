@@ -31,7 +31,7 @@
   #container {
     padding: -webkit-auto;
     margin: 10px;
-    font-size: 40px; }
+    font-size: 37px; }
   .bio {
     padding-right: 5px;
     padding-left: 10px;
@@ -130,10 +130,10 @@ p {
 
 @media (min-width: 1000px) { 
   .bio p {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 400; }
     p {
-        font-size: 33px;
+        font-size: 25px;
     }
 }
 
