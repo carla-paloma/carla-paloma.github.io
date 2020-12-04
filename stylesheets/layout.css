@@ -154,7 +154,7 @@ p {
 @media (min-width: 320px) {
   html {
     font-size: 145%;
-    font-weight: 300; }
+    font-weight: 300px; }
   #navbar {
     margin: 15px;
     padding: 20px;
