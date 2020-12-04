@@ -68,7 +68,7 @@
 
 @media (min-width: 1024px) {
   #container {
-    padding: 0px 100px 0px 100px;
+    padding: 40px 150px 15px 150px;
     margin: auto; }
   .bio {
     padding: 1px;
@@ -87,7 +87,7 @@
 
 @media (min-width: 1200px) {
   #container {
-    padding: 10px 130px 20px 130px;
+    padding: 20px 130px 20px 130px;
     margin: auto; }
   .bio {
     padding: -webkit-auto;
