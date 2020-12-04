@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
   html {
-    font-size: 145%;}
+    font-size: 55%;}
   #container {
     padding: -webkit-auto;
     margin: 5px; }
@@ -13,7 +13,7 @@
     position: relative;
     text-justify: inter-word;
     letter-spacing: 1px; }
-    .card-info #svg-home {
+  .card-info #svg-home {
       height: 30px;
       width: auto;
       position: absolute; }
@@ -27,7 +27,7 @@
 
 @media (min-width: 576px) {
   html {
-    font-size: 145%; }
+    font-size: 55%; }
   #container {
     padding: -webkit-auto;
     margin: 10px;
@@ -153,7 +153,7 @@ p {
 
 @media (min-width: 320px) {
   html {
-    font-size: 55%; }
+    font-size: 145%; }
   #navbar {
     margin: 15px;
     padding: 20px;
