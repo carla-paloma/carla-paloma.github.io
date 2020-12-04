@@ -172,7 +172,7 @@ p {
         padding-left: 60px;
         position: relative;
         font-size: 25px;
-        font-weight: normal;
+        font-weight: 300;
         letter-spacing: 1px; } }
 
 @media (min-width: 576px) {
@@ -248,6 +248,28 @@ p {
         font-size: 35px;
         font-weight: normal; } }
 
+@media (min-width: 1200px) {
+  #navbar {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between; }
+    #navbar #navbar-card {
+      display: flex;
+      height: 72px; }
+      #navbar #navbar-card #circle-navbar-svg {
+        position: absolute;
+        height: 100px; }
+      #navbar #navbar-card #navbar-text {
+        padding-right: 25px;
+        padding-left: 54px;
+        position: relative;
+        font-size: 35px;
+        font-weight: normal; } }
+
 @media (min-width: 1024px) {
   html {
     font-size: 90%; }
@@ -272,27 +294,6 @@ p {
         font-size: 35px;
         font-weight: normal; } }
 
-@media (min-width: 1200px) {
-  #navbar {
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 25px;
-    line-height: 55px;
-    display: flex;
-    justify-content: space-between; }
-    #navbar #navbar-card {
-      display: flex;
-      height: 72px; }
-      #navbar #navbar-card #circle-navbar-svg {
-        position: absolute;
-        height: 100px; }
-      #navbar #navbar-card #navbar-text {
-        padding-right: 25px;
-        padding-left: 54px;
-        position: relative;
-        font-size: 35px;
-        font-weight: normal; } }
 
 * {
   -webkit-box-sizing: border-box;
