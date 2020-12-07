@@ -131,7 +131,8 @@ p {
 @media (min-width: 1000px) { 
   .bio p {
   font-size: 38px;
-  font-weight: 400; }
+  font-weight: 400; 
+  padding: inherit;}
     p {
         font-size: 25px;
     }
